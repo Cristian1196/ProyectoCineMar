@@ -1,0 +1,17 @@
+header {
+    background-image: url("multimedia/ola\ logo.png");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+a {
+
+    font-size: 40px;
+    text-decoration: none;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
