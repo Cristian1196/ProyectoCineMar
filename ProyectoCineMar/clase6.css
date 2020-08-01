@@ -52,9 +52,7 @@
 	justify-content: space-around;
 }
 .botonBuscador {
-	text-align: end;
-	margin-right: 185px;
-	padding-bottom: 10px;
+	text-align: center;
 }
 .item-b {
 	grid-area: main;
