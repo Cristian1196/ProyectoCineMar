@@ -1,0 +1,45 @@
+/* Desafío clase 6*/
+
+#containerAv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#containerBW {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#containerDD {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#containerLogos {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 3cm;
+    right: 7.8cm;
+}
+
+#containerFooter {
+    position: relative;
+    left: 3cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#botonBuscador {
+    position: relative;
+    bottom: 9cm;
+    left: 12cm;
+}

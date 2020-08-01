@@ -1,0 +1,30 @@
+/* práctica clase 6*/
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+img {
+    width: 400px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+
+}
+
+.flex-container-column {
+    display: flex;
+
+}
+
+.flex-hijo {
+    order: 2;
+
+}

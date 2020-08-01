@@ -1,0 +1,39 @@
+/*Desafio clase 4*/
+
+.listLatin {
+    list-style-type: upper-latin;
+    list-style-position: inside;
+}
+
+/*Desafio clase 4*/
+
+/*practica de menu desplegable*/
+.menuDesplegable {
+    list-style: none;
+    font-size: 18px;
+    border: solid red 5px;
+    width: 1.5cm;
+    height: 1cm;
+}
+
+.desplegable {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+}
+.absolute {
+    position: absolute;
+    display: none;
+    font-size: 12px;
+    background-color: #2bff6b;
+    border: 3px solid black;
+}
+.absolute li {
+    display: block;
+}
+
+.menuDesplegable .desplegable:hover .absolute {
+    display: block;
+}
+

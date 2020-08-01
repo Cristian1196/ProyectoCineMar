@@ -1,0 +1,65 @@
+
+.colorMarca{
+	color: rgb(121, 21, 125);
+	width: 100px;
+	height: 100px;
+	font-family: 'Ranchers', cursive;
+    font-size: 80px;
+    font-weight: bold;
+	letter-spacing: 5px;
+	}
+.titulo {
+	color:white;
+}
+.subtitulo {
+	color: green;
+}
+
+.parrafo {
+	color:black;
+	
+}
+ul li {
+	color: rgb(121, 21, 125);
+}
+
+ol li {
+	color: #072182;
+}
+
+table {
+	background: black;
+}
+th {
+	background: white;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+a {
+	color: black;
+	font-size: 30px;
+	font-weight: 550;
+	text-decoration: none;
+}
+
+
+
+img {
+	width: 400px;
+}
+
+.icons {
+	width: 65px;
+}
+
+.logo {
+	width: 150px;
+	border-radius: 50%;
+}
+.tituloFooter {
+	color: #75192a;
+}

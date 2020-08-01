@@ -1,0 +1,130 @@
+/*clase 5*/
+.borde {
+    border: 5px red dotted;
+    width: 290px;
+    height: 100px;
+    margin: 10px 470px 10px 470px;
+    overflow: hidden;
+}
+
+.padding { 
+    padding: 10px 5px 10px 5px;
+
+}
+
+.foot {
+    border-top: solid 5px #87c8de;
+    background-color: #d3ecf5;
+}
+
+.fondoCortina {
+    background-image: url(multimedia/cortinasParaFondo.jpg);
+    background-size: auto;
+}
+
+
+.fondoTitulo { 
+    background-color: black;
+    border: solid 5px blue;
+    width: 200px;
+    height: 30px;
+    position: relative;
+   left: 6cm;
+}
+
+.display1 {
+    display: inline;
+}
+
+.bordeBoton {
+    border: solid red 3px;
+    width: auto;
+    margin: 2px 170px 2px;
+}
+
+button img {
+   width: 20px;
+}
+
+.bordeAv {
+    border: solid black 4px;
+    margin-left: 10px;
+}
+
+.inline {
+    display: inline;
+}
+
+.posicion {
+    list-style: none;
+    font-size: 0px;
+}
+
+.posicionParrafo {
+    position: relative;
+       top: 2cm;
+    border: solid 4px black;
+	width: 400px;
+    height: 100px;
+    background-color: blanchedalmond;
+    padding: 10px 5px 10px 5px;
+}
+.bordeDeAv {
+    border: 4px solid black;
+    width: 30cm;
+    height: 10cm;
+    margin: 1cm;
+}
+
+.posicionBW {
+    background-color: black;
+    border: solid 5px blue;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 6cm;
+}
+.posicionPBW {
+    position: relative;
+   top: 2cm;
+border: solid 4px black;
+width: 400px;
+height: 100px;
+background-color: blanchedalmond;
+padding: 10px 5px 10px 5px;
+}
+
+.bordeBW {
+    border: 4px solid black;
+    width: 30cm;
+    height: 18cm;
+    margin: 1cm;
+}
+
+.posicionDD {
+    background-color: black;
+    border: solid 5px blue;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 6cm;
+    top: 1.5cm;
+}
+
+.posicionPDD {
+    position: relative;
+    top: 3.5cm;
+border: solid 4px black;
+width: 500px;
+height: 115px;
+background-color: white;
+padding: 10px 5px 10px 5px;
+}
+
+.bordeDD {
+    border: 4px solid black;
+    width: 30cm;
+    height: 18cm;
+    margin: 1cm;
+}
+
