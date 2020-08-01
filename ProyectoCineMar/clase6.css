@@ -1,45 +1,78 @@
 /* Desafío clase 6*/
 
 #containerAv {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 #containerBW {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 #containerDD {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
-
 #containerLogos {
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-    top: 3cm;
-    right: 7.8cm;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	top: 3cm;
+	right: 7.8cm;
 }
 
 #containerFooter {
-    position: relative;
-    left: 3cm;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+	left: 3cm;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
-#botonBuscador {
-    position: relative;
-    bottom: 9cm;
-    left: 12cm;
+/* ----------------------------------grids----------------------------------------- */
+
+.container-grids {
+	display: grid;
+	grid-area: header;
+	justify-content: center;
+	grid-template-rows: 160px 120px 100px;
+}
+.container-grids1 {
+	display: grid;
+	grid-area: body;
+	justify-content: start;
+}
+.icon-header {
+	display: flex;
+	justify-content: space-around;
+}
+.botonBuscador {
+	text-align: end;
+	margin-right: 185px;
+	padding-bottom: 10px;
+}
+.item-b {
+	grid-area: main;
+}
+.item-c {
+	grid-area: sidebar;
+}
+.item-d {
+	grid-area: footer;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #63bbc2;
+}
+body {
+	font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+	color: #4e4e4e;
 }

@@ -3,43 +3,55 @@
 <html lang="ES">
 	  <head>
 	      <meta charset="UTF-8">
-	      <title>CineMar</title>
-
+		  <title>CineMar</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  </head>
+	  <link rel="stylesheet" href="/stylesheets/bootstrap-grid.min.css">
 	  <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
-
 	  <link rel="stylesheet" type="text/css" href="editado.css">
 	  <link rel="stylesheet" type="text/css" href="clase4.css">
 	  <link rel="stylesheet" href="clase5.css">
 	  <link rel="stylesheet" href="submenu.css">
 	  <link rel="stylesheet" href="clase6.css">
+	  <link rel="stylesheet" href="section.css">
         <body>
 
-        <header id="centrar" class="fondoImagen">
-          
-          <a href="index.html">
-               <img class="logo"src="https://us.123rf.com/450wm/worldofvector/worldofvector1406/worldofvector140600090/29121884-popcorn-icono-del-cine-de-estilo-dsign-plana-ilustraci%C3%B3n-vectorial.jpg?ver=6">
-          </a>
-         
-   
+        <header id="centrar" class="border">
+         <div class="container-grids fondoImagen">
+			<div class="botonBuscador ">
+	
+				<form >
+					<input type="text" placeholder="Buscador">
+					<input type="submit" value="Buscar">
+				</form>
+			</div>
 
-		 <div class="borde">
-		  <h1 class="colorMarca">CineMar</h1>
-		</div>
-          <h2 class="subtitulo">Las olas y el Cine</h2>
+			
+			   <div class="icon-header">
+                  <a href="index.html">
+                      <img class="logo"src="https://us.123rf.com/450wm/worldofvector/worldofvector1406/worldofvector140600090/29121884-popcorn-icono-del-cine-de-estilo-dsign-plana-ilustraci%C3%B3n-vectorial.jpg?ver=6">
+				  </a>
+				 
+				</div>
 
-      
-        <div id="botonBuscador">
-            <form>
-                 <input type="text" placeholder="Buscador">
-                 <input type="submit" value="Buscar">
-            </form>
-		</div>
+		      <div class="borde">
+		          <h1 class="colorMarca">CineMar</h1>
+			  </div>
+                  <h2 class="subtitulo">Las olas y el Cine</h2>
+
+              
+              
+		      
        
+		   </div>
+		   
+		
+
 
 		</header>
 
-          <div  style="border: 5px solid;" >
+
+           <div class ="containerdelbody"style="border: 5px solid;" >
 			 
            			<ul class="flex-container">
            				<li>
@@ -59,86 +71,66 @@
            				</li>
 					</ul>
 				
-		  </div>
+		    </div>
+	
 
-	<div class="fondoCortina">
+
+
+	<div class="fondoCortina container-grids1 section-container">
 		<br>
 
-			  <div class="bordeDeAv">
-
-				<div>
-               <button class="bordeBoton">
-				   <img src="multimedia/estrellitaDorada.png" alt="estrellita">  7/10
-			   </button>
-				</div>
-
-               <div id="containerAv">
-				   
-				   <a href="losvengadores.html">
-					   <img src="https://i.blogs.es/e5ec52/los-vengadores-the-avengers-la-pelicula-foto/1366_2000.jpg" class="bordeAv"></a>
-				   </a>
-				   
-	               <h1 class="fondoTitulo"> 
-					    <a href="losvengadores.html" class="titulo"> Los vengadores</a>
-					</h1>
-
-	               <p class="posicionParrafo parrafo">El director de la Agencia SHIELD decide reclutar a un equipo para salvar al mundo de un desastre casi seguro cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial.</p>
-				</div>
+			<div class="sections-div">
+				
+			    
+					<div class="img-button" >
+						<button class="boton-movie">
+							<img src="multimedia/estrellitaDorada.png" alt="estrellita">  6/10 
+						  </button>	
+					 <img src="https://pm1.narvii.com/6898/90ca2f233315eaf4abc92dfee1d2ded86a013c0cr1-1000-1500v2_hq.jpg">
+					</div>
+					<div class="movie-box">
+				     <a href="/losvengadores.html">LOS VENGADORES</a>
+					 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus consectetur pariatur quibusdam assumenda vero illo quis adipisci est eligendi veritatis reprehenderit modi hic commodi facere minus iste dolorum dolores sapiente eveniet asperiores, itaque veniam ipsam. Nam tenetur quaerat ad minus provident quibusdam sed sequi illo quia eaque amet libero voluptatem ex, recusandae mollitia dolores quod at. Tenetur, amet provident odit recusandae quibusdam nisi. Laborum aut, quaerat aperiam veniam adipisci eligendi ullam quam, ut nostrum ducimus eum? Maiores ipsam consectetur labore vero adipisci ad autem enim deserunt mollitia ut. Optio, culpa reprehenderit sequi ea eligendi repellendus facere eum exercitationem voluptas!</p>
+					</div>
+				
 			</div>
-			<div class="bordeBW">
-         
-				<div>
-				<button class="bordeBoton">
-					<img src="multimedia/estrellitaDorada.png" alt="estrellita">  6/10
-				</button>
-				 </div>
-
-               <div id="containerBW">
-
-				<a href="blackwidow.html">
-					<img src="https://lumiere-a.akamaihd.net/v1/images/p_blackwidow_19075_0fd5159b.jpeg " class="bordeAv"></a>
-				</a>	
-
-	                <h1 class="posicionBW">
-						<a href="blackwidow.html" class="titulo">Blackwidow </a>
-					</h1>
-
-                   <p class="parrafo posicionPBW">Al nacer, la Viuda Negra, también conocida como Natasha Romanova, se entrega a la KGB para convertirse en su agente definitivo. Cuando la URSS se separa, el gobierno intenta matarla mientras la acción se traslada a la actual Nueva York.</p>
-
-				 </div>
-				 
-
-
-
-
-			</div>
-
-			<div class="bordeDD">
-
-				<div>
-				<button class="bordeBoton">
-					<img src="multimedia/estrellitaDorada.png" alt="estrellita">  4/10
-				</button>
+			<div class="sections-div">
+				
+			    
+				<div class="img-button" >
+					<button class="boton-movie">
+						<img src="multimedia/estrellitaDorada.png" alt="estrellita">  6/10 
+					  </button>	
+				 <img src="https://pm1.narvii.com/6898/90ca2f233315eaf4abc92dfee1d2ded86a013c0cr1-1000-1500v2_hq.jpg">
 				</div>
+				<div class="movie-box">
+				 <a href="/losvengadores.html">LOS VENGADORES</a>
+				 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus consectetur pariatur quibusdam assumenda vero illo quis adipisci est eligendi veritatis reprehenderit modi hic commodi facere minus iste dolorum dolores sapiente eveniet asperiores, itaque veniam ipsam. Nam tenetur quaerat ad minus provident quibusdam sed sequi illo quia eaque amet libero voluptatem ex, recusandae mollitia dolores quod at. Tenetur, amet provident odit recusandae quibusdam nisi. Laborum aut, quaerat aperiam veniam adipisci eligendi ullam quam, ut nostrum ducimus eum? Maiores ipsam consectetur labore vero adipisci ad autem enim deserunt mollitia ut. Optio, culpa reprehenderit sequi ea eligendi repellendus facere eum exercitationem voluptas!</p>
+				</div>
+			
+	    	</div>
 
-                 <div id="containerDD">
-					<a href="#">
-					    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kids-movies-2020-doolittke-1576597612.jpg?crop=0.8293075684380031xw:1xh;center,top&resize=480:*" class="bordeAv"></a>
-					  
-				    </a>
-	                <h1 class="posicionDD">
-						<a href="#" class="titulo">Dr.Dolidle</a>
-					</h1>
-
-	                <p class="parrafo posicionPDD">El Dr. John Dolittle vive solo detrás de los muros de su exuberante mansión en la Inglaterra del siglo XIX. Su única compañía proviene de una variedad de animales exóticos con los que habla a diario. Pero cuando la joven reina Victoria se enferma gravemente, el médico excéntrico y sus amigos peludos se embarcan en una aventura épica en una isla mítica para encontrar la cura.</p>
-                 </div>
-			</div>
+			<div class="sections-div">
+				
+			    
+				<div class="img-button" >
+					<button class="boton-movie">
+						<img src="multimedia/estrellitaDorada.png" alt="estrellita">  6/10 
+					  </button>	
+				 <img src="https://pm1.narvii.com/6898/90ca2f233315eaf4abc92dfee1d2ded86a013c0cr1-1000-1500v2_hq.jpg">
+				</div>
+				<div class="movie-box">
+				 <a href="/losvengadores.html">LOS VENGADORES</a>
+				 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus consectetur pariatur quibusdam assumenda vero illo quis adipisci est eligendi veritatis reprehenderit modi hic commodi facere minus iste dolorum dolores sapiente eveniet asperiores, itaque veniam ipsam. Nam tenetur quaerat ad minus provident quibusdam sed sequi illo quia eaque amet libero voluptatem ex, recusandae mollitia dolores quod at. Tenetur, amet provident odit recusandae quibusdam nisi. Laborum aut, quaerat aperiam veniam adipisci eligendi ullam quam, ut nostrum ducimus eum? Maiores ipsam consectetur labore vero adipisci ad autem enim deserunt mollitia ut. Optio, culpa reprehenderit sequi ea eligendi repellendus facere eum exercitationem voluptas!</p>
+				</div>
+			
+	    	</div>
 
 			<br>
 
-		  </div>
+	  </div>
 
-	    </body>  
+	     
 
 
 
@@ -185,6 +177,8 @@
 	  	
 	      	</div>
 
-	       </footer>
+		   </footer>
+		</div>
+		</body>    
 </html> 
 

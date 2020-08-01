@@ -1,0 +1,42 @@
+.section-container {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.sections-div {
+	width: 70%;
+	display: flex;
+	justify-content: space-evenly;
+	border: solid 3px rgb(126, 120, 120);
+	margin-bottom: 20px;
+}
+
+.boton-movie {
+	width: 12%;
+	height: 20%;
+	border-color: rgb(235, 212, 183);
+	border-radius: 15px;
+}
+.boton-movie:hover {
+	background-color: rgb(238, 195, 142);
+}
+
+.movie-box {
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 3px;
+}
+.movie-box a {
+	text-align: center;
+}
+.movie-box a:hover {
+	background-color: rgb(207, 128, 108);
+}
+.img-button {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
