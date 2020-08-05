@@ -34,26 +34,39 @@
 	justify-content: space-evenly;
 }
 
-/* ----------------------------------grids----------------------------------------- */
+/* ----------------------------------grids case 7----------------------------------------- */
 
-.container-grids {
+.grid {
 	display: grid;
-	grid-area: header;
-	justify-content: center;
-	grid-template-rows: 160px 120px 100px;
+	grid-template-columns: 25% 50% 25%;
+	margin-bottom: 10px;
 }
 .container-grids1 {
 	display: grid;
-	grid-area: body;
-	justify-content: start;
+	grid-template-areas: 
+	"avengers"
+	"titanes"
+	"viento";
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-row-gap: 5px;
+	justify-items: center;
 }
+
+#losVengadores {
+	grid-area: avengers;
+}
+#titanes {
+	grid-area: titanes;
+}
+#viento {
+	grid-area: viento;
+}
+
 .icon-header {
 	display: flex;
 	justify-content: space-around;
 }
-.botonBuscador {
-	text-align: center;
-}
+
 .item-b {
 	grid-area: main;
 }
@@ -74,3 +87,4 @@ body {
 	font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
 	color: #4e4e4e;
 }
+
