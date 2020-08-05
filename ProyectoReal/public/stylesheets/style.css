@@ -1,0 +1,15 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+.img-size {
+  width: 70%;
+}
+
+.h1-center {
+  text-align: center;
+}
+.color-colum {
+  background-color: rgb(240, 240, 199);
+}
