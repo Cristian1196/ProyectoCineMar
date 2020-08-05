@@ -1,0 +1,18 @@
+header {
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+.grilla-header {
+    display: grid;
+    
+}
